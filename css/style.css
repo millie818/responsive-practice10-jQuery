@@ -1,0 +1,964 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+* {
+    box-sizing: border-box;
+}
+ 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+img {
+  vertical-align: top;
+  vertical-align: middle;
+  vertical-align: bottom;
+}
+
+/* リセットCSSここまで */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #000;
+}
+
+.sec_title {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* headerここから */
+header.site_header {
+  background: url(../images/header-bg-img.png);
+  background-size: cover;
+  padding-bottom: 145px;
+}
+
+.header_head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  margin-left: 57px;
+  margin-top: 42px;
+}
+
+.header_right {
+  margin-right: 55px;
+  margin-top: 46px;
+  text-align: right;
+}
+
+.tel_box {
+  background: url(../images/iPhone.png) no-repeat right 0;
+}
+
+p.concept {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  padding-top: 12px;
+  padding-right: 45px;
+  text-transform: uppercase;
+}
+
+p.tel {
+  font-size: 29px;
+  font-weight: 700;
+  padding-right: 45px;
+}
+
+.header_right .header_nav ul {
+  display: flex;
+  margin-top: 31px;
+  padding-right: 6px;
+}
+
+.header_nav ul li {
+  margin-left: 60px;
+}
+
+.header_nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: .15em;
+}
+
+.header_nav ul li a:hover {
+  opacity: .5;
+}
+
+#sp_header_nav {
+  display: none;
+  background: rgba(255, 255, 255, .6);;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.sp_header_nav_btn {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.sp_header_nav_btn i {
+  margin-left: 10px;
+}
+
+#sp_header_nav ul {
+  display: none;
+}
+
+#sp_header_nav ul {
+  margin: 20px 0;
+  text-align: right;
+}
+
+#sp_header_nav ul li {
+  margin-bottom: 10px;
+}
+
+.main_img img.header_subtitle {
+  margin-left: 186px;
+  padding-top: 73px;
+}
+
+.main_img h2 {
+  font-size: 90px;
+  margin-top: 18px;
+  margin-left: 87px;
+}
+
+.main_img p {
+  display: inline-block;
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 22px;
+  margin-left: 135px;
+  padding-bottom: 42px;
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
+}
+
+.happyhour_img {
+  margin-top: 36px;
+  margin-bottom: 40px;
+  margin-left: 225px;
+}
+
+.happyhour_left_img {
+  margin-right: 13px;
+}
+
+.order_btn {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  border: 1px solid #000;
+  padding: 18px 40px;
+  margin-left: 252px;
+  margin-bottom: 157px;
+}
+
+.order_btn:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-.1em);
+}
+/* headerここまで */
+
+
+/* section.orderここから */
+.order {
+  text-align: center;
+  background: url(../images/choose&enjoy-bgimg.png) no-repeat center 295px;
+  padding-bottom: 150px;
+}
+
+.order h2 {
+  font-size: 50px;
+  margin-top: -60px;
+  margin-bottom: 22px;
+}
+
+.sec_text {
+  line-height: 1.7;
+  margin-bottom: 47px;
+}
+
+.column3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column h3 {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.column p {
+  line-height: 1.2;
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.order a {
+  display: inline-block;
+  width: 195px;
+  height: 57px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  line-height: 57px;
+  background: #ffe001;
+}
+
+.order a:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-.1em);
+}
+/* section.orderここまで */
+
+
+/* section.eventsここから */
+.events {
+  text-align: center;
+}
+
+.events h2 {
+  font-size: 42px;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+.sec_subtitle {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.events_img_slider {
+  margin-bottom: 115px;
+}
+
+.img_slider{
+  margin: 60px auto;
+}
+
+.img_slider img {
+  width: 696px;
+  margin: 20px auto 47px auto;
+}
+
+.img_slider li.slick-current img{
+  width: 696px;
+  box-shadow: 5px 5px 19px #0c0d0c;
+  z-index: 100;
+}
+
+.slick-next {
+  right: 0;
+  z-index: 0;
+}
+
+.slider_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 115px;
+}
+
+.slider_btn a {
+  display: block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background: #dcdcdc;
+}
+
+.slider_btn a.active {
+  background: #ffe001;
+}
+
+.try_it_today {
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 90px;
+}
+
+.event_left {
+  width: 597px;
+  height: 420px;
+  background: url(../images/popular-pasta.png) no-repeat;
+  background-size: cover;
+  padding-top: 44px;
+  padding-left: 45px;
+}
+
+.try_it_today p {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.try_it_today a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.try_it_today a:hover {
+  opacity: .6;
+}
+
+div.event_right a:hover {
+  opacity: .6;
+}
+
+.event_left p {
+  margin-bottom: 20px;
+}
+
+.event_left h3 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.event_right {
+  width: 595px;
+}
+
+.event_right_upper {
+  height: 192px;
+  background: url(../images/MoreFunMoreTaste.png);
+  margin-bottom: 35px;
+  padding: 30px;
+}
+
+.evevt_right_lower {
+  height: 192px;
+  background: url(../images/fresh&chili.png);
+  padding: 30px;
+}
+
+.event_right p {
+  margin-bottom: 14px;
+}
+
+.event_right h3 {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+/* section.eventsここまで */
+
+
+/* section.reservationここから */
+.reservation {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 98px;
+}
+
+.reservation p {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+}
+
+.reservation h2 {
+  font-size: 50px;
+  letter-spacing: 0.06em;
+  margin-bottom: 85px;
+}
+
+.input_row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 27px;
+}
+
+.booking_info input {
+  width: 379px;
+  height: 65px;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  padding: 25px 22px;
+}
+
+.find_table_btn {
+  background: #ffe001;
+  font-size: 21px;
+  line-height: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.find_table_btn:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-.1em);
+}
+
+.booking_info input::placeholder {
+  font-size: 17px;
+  color: #3d3d3d;
+}
+
+.left {
+  margin-right: 27px;
+}
+/* section.reservationここまで */
+
+
+/* footerここから */
+.site_footer {
+  background: url(../images/footer-bgimg.png);
+  color: #fff;
+  padding-left: 98px;
+  padding-bottom: 95px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 173px;
+}
+
+.site_footer h2 img {
+  margin-top: 66px;
+  margin-bottom: 69px;
+}
+
+.site_footer p {
+  line-height: 1.5;
+  max-width: 525px;
+}
+
+.footer_right {
+  margin-top: 225px;
+}
+
+.footer_info_content {
+  margin-bottom: 13px;
+  margin-right: 170px;
+}
+
+.footer_info_text {
+  display: inline-block;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.location {
+  padding-bottom: 5px;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sns_icons ul {
+  display: flex;
+  margin-right: 75px;
+}
+
+.sns_icons ul li {
+  list-style: none;
+  margin-right: 12px;
+}
+
+.sns_icons a:hover {
+  opacity: .6;
+}
+
+/* footerここまで */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+.order {
+  width: 100%;
+  padding: 0 30px 100px 30px;
+}
+
+.column3 {
+  width: 100%;
+  padding: 0 40px;
+}
+
+.column {
+  width: 230px;
+}
+
+.column p,
+.column h3 {
+  width: 100%;
+}
+
+.column img {
+  width: 80%;
+}
+
+.center_dish {
+  margin-bottom: 10px;
+}
+
+.events {
+  padding: 0 20px;
+}
+
+.slick-next {
+  right: 0;
+  z-index: -1;
+}
+
+.try_it_today {
+  width: 100%;
+  padding: 0 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.event_left {
+  max-width: 350px;
+  height: 100%;
+  margin-right: 30px;
+  padding-right: 45px;
+  padding-bottom: 50px;
+}
+
+.event_left h3 {
+  font-size: 24px;
+}
+
+.event_right_upper,
+.evevt_right_lower {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.event_right_upper h3,
+.evevt_right_lower h3 {
+  font-size: 24px;
+}
+
+.reservation {
+  padding: 20px;
+}
+
+.reservation h2 {
+  margin-bottom: 50px;
+}
+
+/* footer */
+.site_footer p {
+  margin-right: 50px;
+}
+
+.footer_info_content {
+  display: flex;
+  margin-right: 0;
+}
+
+}
+
+@media screen and (max-width: 970px) {
+.header_nav ul li {
+  margin-left: 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.header.site_header {
+  background-size: 100% auto;
+}
+
+.header_logo {
+  margin: 0;
+  padding: 30px 20px 20px;
+}
+
+.header_logo img {
+  width: 150px;
+}
+
+.header_head {
+  display: block;
+}
+
+.header_right {
+  text-align: left;
+  margin: 0;
+}
+
+.tel_box {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+p.concept {
+  font-size: 14px;
+  margin-bottom: 8px;
+  padding-top: 8px;
+}
+
+p.tel {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.header_right .header_nav {
+  display: none;
+}
+
+#sp_header_nav {
+  display: block;
+  position: fixed;
+  top: 30px;
+  right: 20px;
+}
+
+.main_img {
+  text-align: center;
+}
+
+.main_img img.header_subtitle {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.main_img h2.sec_title {
+  font-size: 45px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.main_img p {
+  font-size: 14px;
+  margin: 20px 0;
+  padding-bottom: 10px;
+}
+
+.happyhour_img {
+  margin: 0 auto 40px auto;
+  padding: 0 30px;
+}
+
+.happyhour_img img {
+  width: 28%;
+}
+
+.order_btn {
+  font-size: 16px;
+  margin: 0 auto 50px auto;
+  padding: 12px 20px;
+}
+
+/* main  */
+/* order section */
+.order {
+  background: none;
+  padding-bottom: 50px;
+}
+
+.order h2 {
+  font-size: 28px;
+}
+
+.column3 {
+  display: block;
+}
+
+.column {
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 40px;
+  background: url(../images/choose&enjoy-bgimg.png) no-repeat center;
+}
+
+.column img {
+  width: 80%;
+  margin-left: 15px;
+  padding: 0 30px;
+}
+
+.column h3 {
+  margin-bottom: 20px;
+}
+
+.column p {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* event  setion */
+.events h2 {
+  font-size: 28px;
+}
+
+p.sec_text {
+  line-height: 1.4;
+  letter-spacing: .03em;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.img_slider img {
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.img_slider li.slick-current img {
+  width: 100%;
+}
+
+.slick-next {
+  right: 0;
+  z-index: -1;
+}
+
+.try_it_today {
+  width: 100%;
+  display: block;
+  padding: 0 20px;
+}
+
+.try_it_today h3 {
+  font-size: 20px;
+}
+
+.try_it_today p {
+  font-size: 23px;
+}
+
+.event_left {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  padding: 30px 0 50px 30px;
+}
+
+.event_right {
+  width: 100%;
+}
+
+.event_right h3 {
+  font-size: 17px;
+}
+
+.event_right br {
+  display: none;
+}
+
+.event_right_upper {
+  height: auto;
+  margin-bottom: 30px;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.evevt_right_lower {
+  height: auto;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+/* reservation section */
+.reservation {
+  width: 100%;
+  padding: 0 30px 30px 30px;
+}
+
+.reservation p {
+  margin-top: 50px;
+}
+
+.reservation h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.input_row {
+  display: block;
+  margin-bottom: 0;
+}
+
+.booking_info input {
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+
+.left {
+  margin: 0;
+}
+
+.booking_info .find_table_btn {
+  margin-top: 10px;
+}
+
+/* footer */
+.site_footer {
+  padding: 0 30px 50px 30px;
+}
+
+.footer_container {
+  display: block;
+  padding-bottom: 30px;
+}
+
+.site_footer h2 img {
+  max-width: 270px;
+  margin: 30px auto;
+}
+
+.site_footer p {
+  font-size: 15px;
+  max-width: none;
+}
+
+.footer_right {
+  margin-top: 50px;
+}
+
+.footer_info_content {
+  display: flex;
+  margin: 20px;
+}
+
+.footer_info_text {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.footer_bottom {
+  flex-direction: column-reverse;
+}
+
+.sns_icons ul {
+  justify-content: center;
+  margin: 0 auto 20px auto;
+}
+
+.site_footer .footer_bottom p {
+  text-align: center;
+  font-size: 13px;
+}
+}
